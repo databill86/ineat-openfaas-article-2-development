@@ -1,0 +1,8 @@
+provider:
+  name: faas
+  gateway: http://10.0.3.2:8080
+functions:
+  ineat-openfaas-calculator:
+    lang: python3-armhf
+    handler: ./ineat-openfaas-calculator
+    image: ineat-openfaas-calculator:latest
