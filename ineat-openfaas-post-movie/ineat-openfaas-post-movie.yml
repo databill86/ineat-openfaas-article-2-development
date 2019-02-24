@@ -1,8 +1,8 @@
 provider:
   name: faas
-  gateway: http://10.0.3.2:8080
+  gateway: http://192.168.1.25:8080
 functions:
   ineat-openfaas-post-movie:
-    lang: python3
+    lang: python3-armhf
     handler: ./ineat-openfaas-post-movie
     image: ineat-openfaas-post-movie:latest
