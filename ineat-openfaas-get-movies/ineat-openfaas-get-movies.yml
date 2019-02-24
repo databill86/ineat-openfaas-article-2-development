@@ -1,0 +1,8 @@
+provider:
+  name: faas
+  gateway: http://10.0.3.2:8080
+functions:
+  ineat-openfaas-get-movies:
+    lang: python3
+    handler: ./ineat-openfaas-get-movies
+    image: ineat-openfaas-get-movies:latest
