@@ -1,7 +1,7 @@
 # OpenFaas on Docker Swarm Tutorial, article 2
 This project contains source code of any functions described on the following link
 
-[Functions development with OpenFaas](url)
+[Functions development with OpenFaas](https://blog.ineat-conseil.fr/2019/03/serverless-sur-raspberry-pi-avec-docker-swarm-et-openfaas-partie-2-developpons-quelques-fonctions/)
 
 ## How build and deploy ineat-openfaas-calculator
 
